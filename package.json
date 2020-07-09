@@ -1,0 +1,25 @@
+{
+    "name": "homemarket-json-server",
+    "version": "0.0.1",
+    "description": "JSON Server Package for Home Market internal project",
+    "main": "index.js",
+    "scripts": {
+        "noauth": "node index --file=./database/db.json --port=8000 --authentication=no",
+        "start": "node index --file=./database/db.json --port=8000"
+    },
+    "repository": {
+        "type": "git",
+        "url": "complete"
+    },
+    "author": "Globant Capacity",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.4",
+        "delay": "^2.0.0",
+        "express": "^4.16.2",
+        "json-server": "^0.16.1",
+        "jsonwebtoken": "^8.1.0",
+        "node-fetch": "^2.6.0",
+        "yargs": "^15.3.1"
+    }
+}
